@@ -732,4 +732,24 @@ footer {
     .footer-grid {
         grid-template-columns: 1fr;
     }
+    
+    section {
+        padding: 4rem 0 !important;
+    }
+    
+    .hero {
+        padding-top: 6rem !important;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 3rem;
+        gap: 1rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+    }
 }
