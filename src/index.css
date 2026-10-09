@@ -1,10 +1,10 @@
 :root {
-    --bg-primary: #ffffff; /* White */
-    --bg-secondary: #f1f5f9; /* Slate 100 */
-    --text-primary: #0f172a; /* Slate 900 */
-    --text-secondary: #475569; /* Slate 600 */
-    --accent-primary: #2563eb; /* Blue 600 */
-    --accent-secondary: #7c3aed; /* Violet 600 */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --accent-primary: #2563eb;
+    --accent-secondary: #7c3aed;
     --glass-bg: rgba(255, 255, 255, 0.7);
     --glass-border: rgba(0, 0, 0, 0.1);
     --font-sans: 'Inter', sans-serif;
@@ -744,7 +744,7 @@ footer {
     .hero-buttons {
         flex-direction: column;
         width: 100%;
-        max-width: 300px;
+        maxWidth: 300px;
         margin: 0 auto 3rem;
         gap: 1rem;
     }
